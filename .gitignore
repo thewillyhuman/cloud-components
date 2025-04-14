@@ -49,3 +49,37 @@ go.work.sum
 # Optional - Go Modules cache if added to project (rare, usually global)
 /pkg/mod
 
+# --------------------------
+# React-specific ignores
+# --------------------------
+
+# Dependency directories
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+build/
+dist/
+coverage/
+
+# Test output
+jest-test-results.json
+
+# React-specific tooling
+.cache/
+.eslintcache
+.next/
+out/
+
+# Editor config
+.vscode/
+
+# Local development certificates
+*.pem
+
+# Optional lock files (if you're not committing them)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
