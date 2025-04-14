@@ -1,0 +1,51 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of the go coverage tool
+*.coverprofile
+
+# Go build artifacts
+/build/
+/bin/
+/dist/
+
+# Dependency directories (when using vendoring)
+/vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Logs
+*.log
+
+# IDE files (GoLand / IntelliJ)
+.idea/
+*.iml
+
+# macOS system files
+.DS_Store
+
+# gRPC generated files (optional if you want to regenerate every time)
+/**/*.pb.go
+/**/*.grpc.pb.go
+
+# Test binary cache
+*.test
+
+# Git backup files
+*~
+
+# Environment files (if any)
+.env
+.env.*
+
+# Optional - Go Modules cache if added to project (rare, usually global)
+/pkg/mod
+
